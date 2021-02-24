@@ -1,8 +1,8 @@
 # PSML
-
-Towards Improving Embedding Based Models of Social Network Alignment via Pseudo Anchors
+paper: Towards Improving Embedding Based Models of Social Network Alignment via Pseudo Anchors
 
 PSML_IONE,PSML_ABNE,PSML_DEEPLINK,PSML_SNNA:
+
 numpy==1.14
 networkx==2.0
 scipy==0.19.1
