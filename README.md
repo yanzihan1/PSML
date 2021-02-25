@@ -22,5 +22,4 @@ networkx >2.0<br>
 ```
 
 support data comes from :https://github.com/ChuXiaokai/CrossMNA<br>
-query data comes from :https://github.com/ColaLL/IONE<br>
-                       https://github.com/ColaLL/AcrossNetworkEmbeddingDiversity
+query data comes from :https://github.com/ColaLL/IONE<br> , https://github.com/ColaLL/AcrossNetworkEmbeddingDiversity
