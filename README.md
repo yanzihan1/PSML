@@ -23,3 +23,56 @@ networkx >2.0<br>
 
 support data comes from :https://github.com/ChuXiaokai/CrossMNA<br>
 query data comes from :https://github.com/ColaLL/IONE<br> , https://github.com/ColaLL/AcrossNetworkEmbeddingDiversity
+
+### For PSML_IONE<br>
+```
+   first run PSML_IONE.py
+   second run Four.py
+   getPrecision--should run emd_to_ione_emd.py and emd_to_ione_emd_t.py
+```
+### For PSML_ABNE<br>
+```
+   first run PSML_ABNE.py
+   second run Four.py
+   getPrecision--should run emd_to_ione_emd.py and emd_to_ione_emd_t.py
+```
+### For PSML_SNNA<br>
+```
+   use deepwalk or line get pre_data
+   run PSML_SNNA.py
+```
+### For PSML_DeepLink<br>
+```
+   run embedding.py to use word2vec get pre_data
+   run PSML_Deeplink.py
+```
+### For PSML_MGCN<br>
+```
+   run PSML_MGCN.py
+```
+### For PSML_DALUAP<br>
+```
+   run PSML_DALUAP.py
+```
+## NOTE:
+Method of adding pseudo node, Take two pseudo anchors, which are connected to each other, such as subnetwork file:
+```
+        node      node
+         1          2
+         3(anchor)  4
+```
+You need change it to:
+```
+        node      node
+         1          2
+         3(anchor)  4
+         3          5(pse)
+         3          6(pse)
+         5(pse)     3
+         6(pse)     3
+         5(pse)     6(pse)
+         6(pse)     5(pse)
+         
+```
+
+
