@@ -75,4 +75,10 @@ You need change it to:
          
 ```
 
+### other
+Some students send email asked me if I had the tensorflow version of ione/abne. Here is the version I reproduced:
+https://github.com/yanzihan1/IONE-Aligning-Users-across-Social-Networks-Using-Network-Embedding
+### contact me:
+yzhcqupt@163.com
+
 
